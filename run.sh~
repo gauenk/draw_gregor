@@ -1,0 +1,2 @@
+#!/bin/bash
+for i in {1..5}; do th main.lua && break || sleep 5; done
